@@ -1,0 +1,65 @@
+.services-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    /* flex-direction: column; */
+}
+
+.filter-section,
+.ad-list-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color:inherit;
+}
+
+.filter-section h2,
+.ad-list-section h2 {
+    margin-top: 0;
+}
+
+.filter-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-section label,
+.ad-list-section li {
+    margin-bottom: 10px;
+}
+
+.filter-section input,
+.filter-section select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filter-section button,
+.ad-list-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ad-list-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ad-list-section li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.ad-list-section h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}

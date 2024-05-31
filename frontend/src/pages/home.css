@@ -1,0 +1,21 @@
+.info-section {
+    background-color:inherit;
+    padding: 20px;
+    /* border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    font-family: "Source Code Pro", cursive;
+}
+
+.info-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "Source Code Pro", cursive;
+}
+
+.info-section p {
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: "Source Code Pro", cursive;
+}

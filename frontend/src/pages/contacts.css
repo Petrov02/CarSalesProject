@@ -1,0 +1,51 @@
+.contact-section {
+    background-color:inherit;
+    padding: 20px;
+    font-family: "Source Code Pro", cursive;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.contact-section h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Source Code Pro", cursive;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    font-family: "Source Code Pro", cursive;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    font-family: "Source Code Pro", cursive;
+    color: #000000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

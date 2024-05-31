@@ -31,3 +31,4 @@ const AdList: React.FC<AdListProps> = ({ advertisements }) => {
 };
 
 export default AdList;
+//

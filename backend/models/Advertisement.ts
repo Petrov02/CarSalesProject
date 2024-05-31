@@ -100,4 +100,3 @@ export class Advertisements extends DB {
         return rows.length ? rows[0] : null;
     }
 }
-//
